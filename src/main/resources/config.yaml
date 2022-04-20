@@ -1,0 +1,43 @@
+browser:
+  browserName: chrome #firefox #ie #edge
+  headlessBrowser: false
+  webElementTimeOut: 15
+
+#testEnvironment: test1 #test2 #test3
+
+environment:
+  test1:
+    envName: test1
+    webUrl: https://seleniumui.moderntester.pl/form.php
+    firstName: Kamil
+    lastName: Gawlicki
+    email: kgawlicki@sii.pl
+    age: 23
+    formMessage: Form send with success
+    filepath: src/main/resources/fileToUpload
+    active: true
+
+  test2:
+    envName: test2
+    webUrl: https://seleniumui.moderntester.pl/form.php
+    firstName: Jan
+    lastName: Nowak
+    email: JanNowak@gmail.com
+    age: 40
+    formMessage: Form send with success
+    filepath: src/main/resources/fileToUpload
+    active: false
+
+
+  test3:
+    envName: test3
+    webUrl: https://seleniumui.moderntester.pl/form.php
+    firstName: Mateusz
+    lastName: Kowalski
+    email: MatiKowal@wp.pl
+    age: 60
+    formMessage: Form send with success
+    filepath: src/main/resources/fileToUpload
+    active: false
+
+---
